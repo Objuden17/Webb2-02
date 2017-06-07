@@ -128,7 +128,19 @@ nav a{
 }
 
 .rowbox2{
-    background-color:crimson;
+    background-color:#9a8f8f;
+    color: black;
+    font-size: 1.2em;
+}
+.rowbox2 li{
+    padding-bottom: 10px;
+}
+.rowbox2 p img{
+    float: left;
+    height: 60%;
+    width: 50%;
+    padding-left: 5px;
+    padding-bottom: 10px;
 }
 
 .rowbox3{
@@ -152,7 +164,7 @@ nav a{
     body{
         background-color: black;
     }
-    .col-1-1 iframe{
+    .col-1-1{
         width: calc(100%);
     }
     header{
@@ -168,8 +180,35 @@ nav a{
     nav ul{
         width: 100%;
     }
+    .rowbox2 p img{
+        width: 100%;
+    }
 }
-
+@media only screen and (max-width:700px){
+    body{
+        background-color: black;
+    }
+    .col-1-1{
+        width: calc(100%);
+    }
+    header{
+        height: 2em;
+        line-height: 2em;
+        font-size: 1.5em;
+    }
+    header img{
+        height: 2em;
+        width: 10em;
+    }
+    
+    nav ul{
+        width: 100%;
+    }
+    .col-1-2{
+        width: 100%;
+    }
+    
+}
 
 
 
